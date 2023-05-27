@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2023/05/27 23:15:18.000.021,=C:\Users\R08X\Documents\Programs\Unit1.pas</Transaction>
+    <Transaction>2023/05/27 23:22:42.000.032,C:\Users\R08X\Documents\Programs\Unit1.dfm=C:\Users\R08X\Desktop\Educational-Practice\Course 1\Code\unitMainMenu.dfm</Transaction>
+    <Transaction>2023/05/27 23:22:42.000.032,C:\Users\R08X\Documents\Programs\Unit1.pas=C:\Users\R08X\Desktop\Educational-Practice\Course 1\Code\unitMainMenu.pas</Transaction>
+    <Transaction>2023/05/27 23:24:13.000.247,C:\Users\R08X\Documents\Programs\Project1.dproj=C:\Users\R08X\Desktop\Educational-Practice\Course 1\Code\LaborExchange.dproj</Transaction>
+    <Transaction>2023/05/28 00:10:49.931,=C:\Users\R08X\Desktop\Educational-Practice\Course 1\Code\Unit1.pas</Transaction>
+    <Transaction>2023/05/28 00:12:20.301,C:\Users\R08X\Desktop\Educational-Practice\Course 1\Code\unitCandidate.dfm=C:\Users\R08X\Desktop\Educational-Practice\Course 1\Code\Unit1.dfm</Transaction>
+    <Transaction>2023/05/28 00:12:20.301,C:\Users\R08X\Desktop\Educational-Practice\Course 1\Code\unitCandidate.pas=C:\Users\R08X\Desktop\Educational-Practice\Course 1\Code\Unit1.pas</Transaction>
+  </Transactions>
+</BorlandProject>

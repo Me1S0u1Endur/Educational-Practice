@@ -1,0 +1,51 @@
+unit unitMainMenu;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls, Vcl.ControlList,
+  Vcl.ExtCtrls;
+
+type
+  TformMainMenu = class(TForm)
+    controlLabelVacancy: TLabel;
+    controlButtonCandidates: TButton;
+    controlEditSearch: TEdit;
+    controlButtonSearch: TButton;
+    controlControlListVacancy: TControlList;
+    controlPanelFilters: TPanel;
+    procedure controlEditSearchClick(Sender: TObject);
+    procedure controlButtonSearchClick(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  formMainMenu: TformMainMenu;
+
+implementation
+
+{$R *.dfm}
+
+procedure TformMainMenu.controlButtonSearchClick(Sender: TObject);
+begin
+
+  controlEditSearch.Text := '¬ведите запрос...';
+  controlEditSearch.Color := clGradientActiveCaption;
+  controlEditSearch.Font.Color := clGrayText;
+
+end;
+
+procedure TformMainMenu.controlEditSearchClick(Sender: TObject);
+begin
+
+  controlEditSearch.Text := '';
+  controlEditSearch.Color := clWindow;
+  controlEditSearch.Font.Color := clBlack;
+
+end;
+
+end.
