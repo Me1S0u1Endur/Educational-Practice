@@ -16,6 +16,12 @@ type
     controlControlListVacancy: TControlList;
     controlPanelFilters: TPanel;
     controlButtonExit: TButton;
+    controlLabelFilters: TLabel;
+    CheckBox1: TCheckBox;
+    CheckBox2: TCheckBox;
+    CheckBox3: TCheckBox;
+    CheckBox4: TCheckBox;
+    CheckBox5: TCheckBox;
     procedure controlEditSearchClick(Sender: TObject);
     procedure controlButtonSearchClick(Sender: TObject);
     procedure controlButtonExitClick(Sender: TObject);

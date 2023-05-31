@@ -4,8 +4,8 @@ object formVacancy: TformVacancy
   BorderIcons = [biSystemMenu, biMinimize]
   BorderStyle = bsSingle
   Caption = 'Vacancy'
-  ClientHeight = 561
-  ClientWidth = 784
+  ClientHeight = 560
+  ClientWidth = 780
   Color = clWindow
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText
@@ -13,7 +13,6 @@ object formVacancy: TformVacancy
   Font.Name = 'Segoe UI Variable Text'
   Font.Style = [fsBold]
   Position = poScreenCenter
-  PixelsPerInch = 96
   TextHeight = 16
   object controlLabelVacancy: TLabel
     Left = 329
@@ -92,6 +91,59 @@ object formVacancy: TformVacancy
     Width = 217
     Height = 441
     TabOrder = 4
+    object controlLabelFilters: TLabel
+      Left = 73
+      Top = 8
+      Width = 72
+      Height = 21
+      Caption = #1060#1080#1083#1100#1090#1088#1099
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -16
+      Font.Name = 'Segoe UI Variable Text'
+      Font.Style = [fsBold]
+      ParentFont = False
+    end
+    object CheckBox1: TCheckBox
+      Left = 64
+      Top = 96
+      Width = 97
+      Height = 17
+      Caption = 'CheckBox1'
+      TabOrder = 0
+    end
+    object CheckBox2: TCheckBox
+      Left = 64
+      Top = 135
+      Width = 97
+      Height = 17
+      Caption = 'CheckBox1'
+      TabOrder = 1
+    end
+    object CheckBox3: TCheckBox
+      Left = 64
+      Top = 175
+      Width = 97
+      Height = 17
+      Caption = 'CheckBox1'
+      TabOrder = 2
+    end
+    object CheckBox4: TCheckBox
+      Left = 64
+      Top = 213
+      Width = 97
+      Height = 17
+      Caption = 'CheckBox1'
+      TabOrder = 3
+    end
+    object CheckBox5: TCheckBox
+      Left = 64
+      Top = 253
+      Width = 97
+      Height = 17
+      Caption = 'CheckBox1'
+      TabOrder = 4
+    end
   end
   object controlButtonExit: TButton
     Left = 317

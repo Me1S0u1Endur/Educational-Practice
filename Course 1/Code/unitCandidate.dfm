@@ -13,7 +13,6 @@ object formCandidate: TformCandidate
   Font.Name = 'Segoe UI Variable Text'
   Font.Style = [fsBold]
   Position = poScreenCenter
-  PixelsPerInch = 96
   TextHeight = 16
   object controlLabelCanditate: TLabel
     Left = 317
@@ -92,6 +91,19 @@ object formCandidate: TformCandidate
     Width = 217
     Height = 441
     TabOrder = 4
+    object controlLabelFilters: TLabel
+      Left = 73
+      Top = 8
+      Width = 72
+      Height = 21
+      Caption = #1060#1080#1083#1100#1090#1088#1099
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -16
+      Font.Name = 'Segoe UI Variable Text'
+      Font.Style = [fsBold]
+      ParentFont = False
+    end
   end
   object controlButtonExit: TButton
     Left = 317

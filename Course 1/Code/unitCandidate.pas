@@ -16,6 +16,7 @@ type
     controlControlListVacancy: TControlList;
     controlPanelFilters: TPanel;
     controlButtonExit: TButton;
+    controlLabelFilters: TLabel;
     procedure controlButtonVacancyClick(Sender: TObject);
     procedure controlButtonExitClick(Sender: TObject);
     procedure controlEditSearchClick(Sender: TObject);
